@@ -363,7 +363,6 @@
      display: flex;
      justify-content: space-between;
      flex-direction: column;
-     opacity: 0;
  }
 
  .redes-x i {
