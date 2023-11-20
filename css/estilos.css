@@ -246,12 +246,10 @@
      height: auto;
      border-radius: 20px 20px 20px 20px;
      width: 20vw;
-     /* ¿Es este valor necesario? Parece duplicado. */
      max-height: 50vh;
      max-width: 50vw;
      box-shadow: 6px 6px 12px #a5a3a3, -6px -6px 12px #ffffff;
      transition: transform 0.3s ease, box-shadow 0.3s ease;
-     /* Agregando transiciones */
  }
 
  .img-techpro:hover {
@@ -259,11 +257,6 @@
      box-shadow: 8px 8px 16px #a5a3a3, -8px -8px 16px #ffffff;
  }
 
-
- .sam-s23fe {
-     margin-top: 1vh;
-     margin-bottom: 1vh;
- }
 
  .anatomia {
      width: 50%;
@@ -369,6 +362,13 @@
      margin: 0 18px;
      text-align: center;
      list-style: none;
+ }
+
+ .sam-s23fe {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+
  }
 
  logos-media {
