@@ -9,7 +9,6 @@
  body {
      font-family: "Poppins", sans-serif;
      height: 100%;
-
  }
 
  .container {
@@ -233,7 +232,6 @@
      max-width: auto;
      box-shadow: 6px 6px 12px #a5a3a3, -6px -6px 12px #ffffff;
      transition: transform 0.3s ease, box-shadow 0.3s ease;
-     /* Agregando transiciones */
  }
 
  .img-fluid:hover {
@@ -262,6 +260,13 @@
      width: 50%;
      height: auto;
      border-radius: 20px 0 20px 0;
+     box-shadow: 6px 6px 12px #a5a3a3, -6px -6px 12px #ffffff;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .anatomia:hover {
+     transform: scale(1.05);
+     box-shadow: 8px 8px 16px #a5a3a3, -8px -8px 16px #ffffff;
  }
 
  .alineado {
